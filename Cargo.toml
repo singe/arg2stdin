@@ -3,8 +3,7 @@ name = "arg2stdin"
 version = "0.1.0"
 edition = "2021"
 description = "A simple utility to pass cli arguments as stdin to a specified command."
-license = "GPL-3.0-or-later"
-license-file = "LICENSE"
+license = "GPL-2.0-or-later"
 repository = "https://github.com/singe/arg2stdin"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
