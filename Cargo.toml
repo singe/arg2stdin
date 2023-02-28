@@ -1,6 +1,6 @@
 [package]
 name = "arg2stdin"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "A simple utility to pass cli arguments as stdin to a specified command."
 license = "GPL-2.0-or-later"
