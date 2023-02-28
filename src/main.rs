@@ -1,4 +1,4 @@
-use std::io::{self, BufRead, Write};
+use std::io::{self, Write};
 use std::process::{Command, Stdio};
 
 fn main() -> io::Result<()> {
@@ -23,6 +23,8 @@ fn main() -> io::Result<()> {
     });
 
     let output = child.wait_with_output().expect("Failed to read stdout");
-    io::stdout().write_all(&output.stdout).expect("Failed to write to stdout");
+    io::stdout()
+        .write_all(&output.stdout)
+        .expect("Failed to write to stdout");
     Ok(())
 }
